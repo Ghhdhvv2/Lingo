@@ -741,11 +741,7 @@ export default function LingoGame() {
           </div>
 
           {/* Logo */}
-          <img 
-          src="https://i.ibb.co/yzQncnT/lingo-logo.avif" 
-          alt="Lingo"
-          style={{ width: 220, marginBottom: 8 }}
-          />
+          <img src="/lingo-logo.avif" alt="Lingo" style={{width: 280, marginBottom: 8}} />
 
           {/* Scoreboard */}
           <div className="scoreboard">
