@@ -741,10 +741,11 @@ export default function LingoGame() {
           </div>
 
           {/* Logo */}
-          <div className="logo-wrap">
-            <div className="logo">LINGO</div>
-          </div>
-          <div className="logo-tagline">The ITV Word Game</div>
+          <img 
+          src="https://i.ibb.co/yzQncnT/lingo-logo.avif" 
+          alt="Lingo"
+          style={{ width: 220, marginBottom: 8 }}
+          />
 
           {/* Scoreboard */}
           <div className="scoreboard">
