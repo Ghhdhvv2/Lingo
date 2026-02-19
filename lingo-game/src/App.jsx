@@ -83,26 +83,6 @@ body { background: var(--panel); font-family: 'Nunito', sans-serif; }
   padding-bottom: 40px;
 }
 
-/* Studio light rays from top */
-.app::before {
-  content: '';
-  position: absolute;
-  top: -60px; left: 50%;
-  transform: translateX(-50%);
-  width: 900px; height: 500px;
-  background:
-    conic-gradient(from 85deg at 50% 0%,
-      transparent 0deg,
-      rgba(255,220,100,0.06) 5deg,
-      transparent 10deg,
-      rgba(255,220,100,0.04) 15deg,
-      transparent 20deg,
-      rgba(255,200,80,0.05) 25deg,
-      transparent 30deg
-    );
-  pointer-events: none;
-}
-
 /* Grain overlay */
 .grain {
   position: fixed; inset: 0;
