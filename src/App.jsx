@@ -74,11 +74,7 @@ body { background: var(--panel); font-family: 'Nunito', sans-serif; }
 
 .app {
   min-height: 100vh;
-  background:
-    radial-gradient(ellipse 110% 60% at 50% -10%, rgba(240,192,64,0.18) 0%, transparent 55%),
-    radial-gradient(ellipse 60% 40% at 20% 50%, rgba(200,100,20,0.08) 0%, transparent 50%),
-    radial-gradient(ellipse 60% 40% at 80% 50%, rgba(200,100,20,0.08) 0%, transparent 50%),
-    linear-gradient(180deg, #2c1e10 0%, #1e1408 40%, #16100a 100%);
+  background: #002139;
   display: flex;
   flex-direction: column;
   align-items: center;
